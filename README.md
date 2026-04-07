@@ -10,7 +10,13 @@ A quantitative options analysis pipeline for SPY (S&P 500 ETF) that detects unus
 
 This project automates the following workflow:
 
-Pull historical prices → Compute Realized Volatility (RV)
+Pulls historical prices
+
+↓
+
+Computes Realized Volatility (RV)
+
+↓
 
 Pull options chain (calls + puts)
 
